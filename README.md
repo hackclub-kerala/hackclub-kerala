@@ -9,3 +9,7 @@ This is the repo for developing hack club kerala.
 ## Main package and tools to develop
 
 * tailwindcss
+
+## Code design
+
+If you want to contribute to this repo then make a pull request to your 'Dev' branch. Please be specific on what is your PR means.
