@@ -8,6 +8,7 @@ This is the repo for developing hack club kerala.
 
 ## Main package and tools to develop
 
+* React JS
 * tailwindcss
 
 ## Code design
