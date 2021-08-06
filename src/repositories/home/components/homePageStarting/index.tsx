@@ -5,7 +5,7 @@ import cssStyle from "./style.module.css";
 const HomePageStarting = () => {
   return (
     <div style={style}>
-      <div style={{ position: "relative", top: "40%" }}>
+      <div style={{ position: "relative", top: "33%" }}>
         <div className="flex justify-center">
           <p className={cssStyle.headingName}> Hack Club Kerala</p>
         </div>
