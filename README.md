@@ -23,17 +23,17 @@ All the file are the files are in src.
 
 * The root dir only contain the config and normal file with react JS.
 
-src/config  : contain config file
-src/error : contain error handler file
-src/routes : contain route handling files
-src/services :contain services files
-src/shared :contain file for shared usage to all repo
-src/components: contain components to be used any module
+src/config  : contain config file <br />
+src/error : contain error handler file <br />
+src/routes : contain route handling files <br />
+src/services :contain services files <br />
+src/shared :contain file for shared usage to all repo <br />
+src/components: contain components to be used any module <br />
 
-This dir mention above are  shared folder. Which can be used to any modules we want.
+This dir mention above are  shared folder. Which can be used to any modules we want. <br />
 
-src/repositories : contain file to which have modules like home and auth.
+src/repositories : contain file to which have modules like home and auth. <br />
 
-src/repositories/***module name***/components : this is more like application layer where all view that depend on that module is placed at.
+src/repositories/***module name***/components : this is more like application layer where all view that depend on that module is placed at. <br />
 
-src/repositories/***module name***/logic : this is more like infrastrcutre layer go in our case it's logic.
+src/repositories/***module name***/logic : this is more like infrastrcutre layer go in our case it's logic. <br />
