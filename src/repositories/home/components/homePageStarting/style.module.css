@@ -1,0 +1,13 @@
+.headingName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+
+@media screen and (max-width: 614px) {
+    .headingName {
+      font-size: 30px;
+      color: 'white';
+    }
+  }

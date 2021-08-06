@@ -5,7 +5,7 @@ import HomePage from "../repositories/home";
 const RoutePage = () => {
   return (
     <BrowserRouter>
-      <Route  exact path="/" component={HomePage} />
+      <Route path="/" component={HomePage} />
     </BrowserRouter>
   );
 };
