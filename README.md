@@ -12,4 +12,27 @@ This is the repo for developing hack club kerala.
 
 ## Code design
 
-If you want to contribute to this repo then make a pull request to your 'Dev' branch. Please be specific on what is your PR means.
+```If you want to contribute to this repo then make a pull request to your 'Dev' branch. Please be specific on what is your PR means.```
+
+We use our own customized DDD structure for this work flow.
+
+## File Structure
+
+All the file are the files are in src.
+
+* The root dir only contain the config and normal file with react JS.
+
+src/config  : contain config file
+src/error : contain error handler file
+src/routes : contain route handling files
+src/services :contain services files
+src/shared :contain file for shared usage to all repo
+src/components: contain components to be used any module
+
+This dir mention above are  shared folder. Which can be used to any modules we want.
+
+src/repositories : contain file to which have modules like home and auth.
+
+src/repositories/***module name***/components : this is more like application layer where all view that depend on that module is placed at.
+
+src/repositories/***module name***/logic : this is more like infrastrcutre layer go in our case it's logic.
